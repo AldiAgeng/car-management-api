@@ -1,5 +1,6 @@
 {
   "openapi": "3.0.0",
+  "Access-Control-Allow-Origin": "*",
   "info": {
     "title": "Car Management API",
     "description": "Car Management Rest API",
