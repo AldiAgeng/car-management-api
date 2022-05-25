@@ -22,7 +22,7 @@ module.exports = {
   filter(filterArgs) {
     return Car.findAll({
       where: {
-        [Op.or]: [
+        [Op.and]: [
           {
             capacity: {
               [Op.gte]: filterArgs.capacity,
